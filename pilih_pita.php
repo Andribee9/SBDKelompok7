@@ -12,7 +12,7 @@ $produk = isset($_GET['produk']) ? $_GET['produk'] : '';
     body {
       background: url('images/cewekgiftbox.png') no-repeat top center;
       background-size: 1000px;
-      background-attachment: fixed;
+      background-attachment: fixed; 
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', sans-serif;
