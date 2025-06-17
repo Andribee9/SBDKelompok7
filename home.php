@@ -1,6 +1,4 @@
-# Re-run after kernel reset: generate the same file content again and count its lines
 
-home_php_lines = """
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -173,11 +171,3 @@ home_php_lines = """
 
 </body>
 </html>
-"""
-
-output_path = "/mnt/data/home_fixed_terhubung.php"
-with open(output_path, "w", encoding="utf-8") as f:
-    f.write(home_php_lines.strip())
-
-jumlah_baris = len(home_php_lines.strip().splitlines())
-output_path, jumlah_baris

@@ -64,6 +64,3 @@ echo "<script>alert('Pemesanan berhasil!'); window.location.href='index.php';</s
 ?>
 """
 
-file_path = "/mnt/data/simpan_baru.php"
-Path(file_path).write_text(php_code)
-file_path

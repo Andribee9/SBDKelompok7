@@ -178,7 +178,10 @@ if ($produk && $pita) {
       <input type="text" name="name" required />
 
       <label>No HP</label>
-      <input type="text" name="phone" required />
+      <input type="text" name="phone" maxlength="14" required 
+       oninput="this.value = this.value.replace(/[^0-9]/g, '')" 
+       placeholder="Masukkan No HP" />
+
 
       <label>Jenis Box</label>
       <div class="box-preview">
